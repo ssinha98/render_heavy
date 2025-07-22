@@ -68,6 +68,7 @@ def deepresearch():
         model="sonar-deep-research",
         messages=[{"role": "user", "content": prompt}, 
         ], 
+        resoning_effor="low"
         # search_mode="web",  # Perplexity-specific
         # return_citations=True
     )
